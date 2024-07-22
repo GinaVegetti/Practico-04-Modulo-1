@@ -1,0 +1,97 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(250, 149, 250);
+}
+h1{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+nav{
+    color: black;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none ;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    margin: 0 1em;
+}
+
+nav ul li a{
+    color: rgb(104, 49, 104);
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#producto{
+    width: 100%;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: rgb(202, 141, 202);
+    border: 1px solid;
+    border-color: violet;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+
+.tarjeta img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tarjeta h3{
+    margin: 1em;
+
+}
+
+.tarjeta p{
+    margin: 1em;
+}
+
+#formulario h2{
+text-align: start;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#formulario label #formulario input{
+    margin: 0.5em 0;
+}
